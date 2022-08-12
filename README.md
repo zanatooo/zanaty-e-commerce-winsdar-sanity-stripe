@@ -1,62 +1,48 @@
  # winsdar
 
-Projects have played a key role in your journey to becoming a full-stack web developer. As you apply for development jobs, your portfolio is absolutely vital to opening doors to opportunities. It’s important to feature high-quality deployed examples of your work—and you can use your finished projects for that very purpose.
+This is a Next.js project bootstrapped with create-next-app, and sanity.io.
 
-This project will be your best opportunity to show employers your collaborative skills and coding abilities, especially in the context of a scalable, user-focused MERN app. Employers want to see what you can do, but they also want to see how you work with other developers. The more examples of deployed collaborative work you have in your portfolio, the more likely you are to get an interview and a job. That’s why one of the requirements for this project is that you add it to your portfolio.
+Technologies used:
+- Advanced React Best Practices such as folder and file structure, hooks, and refs
+- Advanced State Management of the entire application using React Context API
+- Next.js Best Practices such as file-based routing and data using server-side rendering and static generation
+- Stripe to manage payments, products, shipping rates, and the entire checkout process
+- manage the entire content of your app using Sanity. Sanity is the unified content platform that’ll make the making of our entire app possible
+- Deploy to ‘Vericel’ ‘cloud host
 
-Project Requirements
-Your group will use everything you’ve learned throughout this course to create a MERN stack single-page application that works with real-world data to solve a real-world challenge, with a focus on user demand. The user story and acceptance criteria will depend on the project that you create, but your project must fulfill some specific requirements.
+User Story and client's requirements:
+Fully "interactive" e-commerce site--winsdar.com.
+Client is able to manage with minimal tech skill.
+Secure ‘financial’ transaction backed by ‘stripe’, ‘paypal’, or sim.
+Provide ‘fully’ working site in 2 weeks.
+Client wanted to ‘privatize’ their current ‘online’ business currently done through EBAY ‘store’.
+Clients specialty was retailing ‘COSPLAY’ accessories, mainly ‘toy swords’ popularized by many Japanese anime shows.
+Client wanted to focus on only few items and a simple site that they can manage easily without too much tech knowledge.
+Site needs to be ‘scalable’ for the future.
+We are available to continue development and management at client’s request.
 
-Your project should fulfill the following requirements:
+Getting Started
+npm sanity start
+Open http://localhost:3333 with your browser to add porducts and banner
 
-Use React for the front end.
+npm run dev
+# or
+yarn dev
+Open http://localhost:3000 with your browser to see the result.
 
-Use GraphQL with a Node.js and Express.js server.
+You can start editing the page by modifying pages/index.js. The page auto-updates as you edit the file.
 
-Use MongoDB and the Mongoose ODM for the database.
+API routes can be accessed on http://localhost:3000/api/hello. This endpoint can be edited in pages/api/hello.js.
 
-Use queries and mutations for retrieving, adding, updating, and deleting data.
+The pages/api directory is mapped to /api/*. Files in this directory are treated as API routes instead of React pages.
 
-Be deployed using Heroku (with data).
+Adding the sanity API token and porjectID to client.js file
 
-Have a polished UI.
+[Deployment on Vercel](https://zanaty-e-commerce-winsdar-sanity-stripe.vercel.app/)
+[www.winsdar.com](https://zanaty-e-commerce-winsdar-sanity-stripe.vercel.app/)
 
-Be responsive.
+https://github.com/zanatooo/zanaty-e-commerce-winsdar-sanity-stripe
 
-Be interactive (i.e., accept and respond to user input).
 
-Include authentication (JWT).
-
-Protect sensitive API key information on the server.
-
-Have a clean repository that meets quality coding standards (file structure, naming conventions, best practices for class and id naming conventions, indentation, quality comments, etc.).
-
-Have a high-quality README (with unique name, description, technologies used, screenshot, and link to deployed application).
-
-Finally, you must add your project to the portfolio that you created in Module 20.
-
-You should also consider the following suggestions to help your project stand out:
-
-CSS Styling
-Instead of using a CSS library like Bootstrap, consider one of the following suggestions:
-
-Look into the concept of CSS-in-JS, which abstracts CSS to the component level, using JavaScript to describe styles in a declarative and maintainable way. Some popular libraries include styled-components (Links to an external site.) and Emotion (Links to an external site.).
-
-Try using a component library, such as Semantic UI (Links to an external site.), Chakra UI (Links to an external site.), or Ant Design (Links to an external site.).
-
-Create all the CSS for your application just using CSS.
-
-Ultimately, it doesn't matter which of these options you choose— it just needs to look professional and be mobile-friendly.
-
-Payment Platform
-Consider integrating the Stripe payment platform. Even if you don’t create an e-commerce platform, you could set up your site to accept charitable donations.
-
-Bonus
-Although this is not a requirement for your project, see if you can also implement functionality to meet the minimum requirements of a PWA:
-
-Uses a web manifest
-
-Uses a service worker for offline functionality
-
-Is installable
-
+Developer:
+Mohammed Elzanaty
